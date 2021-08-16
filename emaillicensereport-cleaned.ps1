@@ -2,7 +2,8 @@
 # 08-16-2021
 # Heavily influenced by(Beautiful module import, AccountSKUs,GraphAPI calls, all Kelvin): https://www.cyberdrain.com/documenting-with-powershell-documenting-the-o365-portal/
 # Utilizing SecureApp Model from: https://www.cyberdrain.com/connect-to-exchange-online-automated-when-mfa-is-enabled-using-the-secureapp-model/
-#Future improvements: Switch to using GraphAPI for sending email: https://practical365.com/upgrade-powershell-scripts-sendmailmessage/
+#If you wanted, you could use this method of emailing and email via Office 365: https://practical365.com/upgrade-powershell-scripts-sendmailmessage/
+#I used SMTP here, because I send it via a smtp service so it stays outside of our Office365 Tenant. SMTP2Go is very affordable and has a free tier for 1,000 emails/month.
 
 
 ######### Secrets #########
